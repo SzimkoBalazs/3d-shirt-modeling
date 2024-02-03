@@ -50,10 +50,7 @@ export const FilterTabs = [
     name: "stylishShirt",
     icon: stylishShirt,
   },
-  {
-    name: "textShirt",
-    icon: text,
-  },
+  
 ];
 
 export const DownldTabs = [

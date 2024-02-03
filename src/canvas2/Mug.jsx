@@ -27,6 +27,7 @@ const Mug = () => {
         material={materials["Material.001"]}
         material-roughness={1}
         dispose={null}
+        rotation={[-1.3, 0, 1.5]}
       >
         {snap.isFullTexture && (
           <Decal 
@@ -39,11 +40,11 @@ const Mug = () => {
 
         {snap.isLogoTexture && (
           <Decal 
-            position={[0, 0.04, 0.15]}
+            position={[-0.1, 0.01, 0.1]}
             rotation={[0, 0, 0]}
             scale={0.15}
             map={logoTexture}
-            map-anisotropy={16}
+            anisotropy={16}
             depthTest={false}
             depthWrite={true}
           />

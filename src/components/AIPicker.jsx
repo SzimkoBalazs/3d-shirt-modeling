@@ -37,6 +37,7 @@ const AIPicker = ({ prompt, setPrompt, generatingImg, handleSubmit }) => {
           </>
         )}
       </div>
+      <span className='text-rose-600'>Currently unavailable</span>
     </div>
   )
 }

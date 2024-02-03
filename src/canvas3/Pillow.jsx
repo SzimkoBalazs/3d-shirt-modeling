@@ -44,7 +44,7 @@ const Pillow = () => {
             rotation={[0, 0, 0]}
             scale={1}
             map={logoTexture}
-            map-anisotropy={16}
+            anisotropy={16}
             depthTest={false}
             depthWrite={true}
           />
