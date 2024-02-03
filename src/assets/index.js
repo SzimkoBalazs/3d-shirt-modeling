@@ -4,7 +4,7 @@ import swatch from "./swatch.png";
 import download from "./download.png";
 import text from "./text.png";
 import cart from "./trolley.png";
-import customizeLogo from "./customLogoLowres.png";
+import customizeLogo from "./customLogoLowRes.png";
 import sizeLogo from "./size-guide.png";
 import addToCartLogo from "./add-to-cart.png";
 import priceLogo from "./price-tag.png";
