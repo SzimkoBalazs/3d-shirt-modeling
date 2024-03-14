@@ -48,17 +48,7 @@ const Home = () => {
                 handleClick={() => state.intro = "customize"}
                 customStyles="w-fit px-4 py-2.5 font-bold text-sm"
               />
-              <div className="select-container">
-               <Dropdown value={state.product} 
-                      onChange={(e) => state.product = e.target.value} 
-                      className="block w-28 p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 text-center"
-                      style={{background: snap.color, color: getContrastingColor(snap.color), appearance: "none"}}
-               >
-                <Dropdown.Item value="shirt" className="py-1 font-bold">Shirt</Dropdown.Item>
-                <Dropdown.Item value="pillow" className="py-1 font-bold">Pillow</Dropdown.Item>
-              </Dropdown>
               
-              </div>
             </motion.div>
           </motion.div>
         </motion.section>
