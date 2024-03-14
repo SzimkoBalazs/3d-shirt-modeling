@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useSnapshot } from 'valtio';
-
+import { Dropdown } from 'flowbite-react';
 import {state} from '../store';
 import { CustomButton } from '../components';
 import {
@@ -49,16 +49,15 @@ const Home = () => {
                 customStyles="w-fit px-4 py-2.5 font-bold text-sm"
               />
               <div className="select-container">
-               <select value={state.product} 
+               <Dropdown value={state.product} 
                       onChange={(e) => state.product = e.target.value} 
                       className="block w-28 p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 text-center"
                       style={{background: snap.color, color: getContrastingColor(snap.color), appearance: "none"}}
                >
-                <option value="shirt" className="py-1 font-bold">Shirt</option>
-                <option value="mug" className="py-1 font-bold">Mug</option>
-                <option value="pillow" className="py-1 font-bold">Pillow</option>
-              </select>
-              <div className="select-arrow"></div>
+                <Dropdown.Item value="shirt" className="py-1 font-bold">Shirt</Dropdown.Item>
+                <Dropdown.Item value="pillow" className="py-1 font-bold">Pillow</Dropdown.Item>
+              </Dropdown>
+              
               </div>
             </motion.div>
           </motion.div>
