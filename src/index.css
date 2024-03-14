@@ -52,7 +52,7 @@ html {
 }
 
 .price-container {
-  @apply absolute right-full ml-3 glassmorphism p-3 w-[195px] h-[220px] rounded-md flex flex-col gap-4 items-center justify-center;
+  @apply absolute right-full mr-3 glassmorphism p-3 w-[195px] h-[220px] rounded-md flex flex-col gap-4 items-center justify-center;
 }
 
 .aipicker-textarea {
@@ -64,11 +64,11 @@ html {
 }
 
 .sizepicker-container {
-  @apply absolute right-full ml-3 glassmorphism p-3 w-[195px] h-[220px] flex flex-col rounded-md items-center justify-center;
+  @apply absolute right-full mr-3 glassmorphism p-3 w-[195px] h-[220px] flex flex-col rounded-md items-center justify-center;
 }
 
 .addtocart-container {
-  @apply absolute right-full ml-3 glassmorphism p-3 w-[195px] h-[220px] flex flex-col rounded-md items-center justify-between;
+  @apply absolute right-full mr-3 glassmorphism p-3 w-[195px] h-[220px] flex flex-col rounded-md items-center justify-between;
 }
 
 .filepicker-label {
