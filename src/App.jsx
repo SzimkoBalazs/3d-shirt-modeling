@@ -5,7 +5,7 @@ import Customizer from "./pages/Customizer"
 import Home from "./pages/Home"
 import {state} from "./store"
 import { useSnapshot } from 'valtio';
-import ShoppingCart from "./pages/ShoppingCart"
+
 
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
       <Home />
       {snap.renderProduct && ComponentToRender && <ComponentToRender />}
       <Customizer />
-     <ShoppingCart/>
+     
 
         </main>
   )

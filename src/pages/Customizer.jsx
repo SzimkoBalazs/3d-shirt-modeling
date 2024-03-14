@@ -194,10 +194,7 @@ const Customizer = () => {
               handleClick={() => state.intro = "home"}
               customStyles="w-fit px-4 py-2.5 font-bold text-sm mr-5"
             />
-            <div style={{ width: '32px', height: '32px' }} onClick={() => {
-                         state.intro = "shoppingcart";
-                         state.renderProduct = false;
-                       }}>
+            <div style={{ width: '32px', height: '32px' }}>
               <img src={cart} alt='shoppingCart' style={{ width: '100%', height: '100%', objectFit: 'contain', cursor: 'pointer' }}/>
               <span class="cart-count">{snap.totalQuantity}</span>
             </div>
